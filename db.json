@@ -1,0 +1,199 @@
+[
+  {
+    "ref": "10399512-3683-47e2-9a24-41b29e75a628",
+    "keyword": "6f475106c74e9e35cde82e9e3f2b761f",
+    "answer": "hola crack",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "fbc775fb54e69d3922ae25643a8e043a"
+  },
+  {
+    "ref": "ans_ee723925-91cb-4df1-8a43-d7a6c8c11d62",
+    "keyword": "key_54b40819-98b0-4fbf-b801-64e5f3e3d467",
+    "answer": "Hola, gracias por comunicarte con Puesto de Campo. Solo podemos responder mensajes ESCRITOS. ¿En qué podemos ayudarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8746582374f81c15ab9bb7affb6dddb6",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "53ae2f2a-53ac-42e0-a58a-f05d677a99a8",
+    "keyword": "8746582374f81c15ab9bb7affb6dddb6",
+    "answer": "Envíos",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "3047f9f01e6cb297a6d1993599b505c3"
+  },
+  {
+    "ref": "ans_d895a23c-874c-4489-9b04-e7b3b17061b1",
+    "keyword": "key_91090468-9b35-4bf8-bb6b-a71b57f25a7a",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b4a3dae63de210101c0033dfcd8d903a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "102b03d6-0f28-4116-b751-56c1f216382d",
+    "keyword": "b4a3dae63de210101c0033dfcd8d903a",
+    "answer": "Pedro Goyena 298",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "c3592c692e47e46a613992bfb8f4cf08"
+  },
+  {
+    "ref": "ans_eaf80147-5ab8-4fe7-b426-2dcc10efe7dc",
+    "keyword": "key_9d055596-7303-4d1b-beae-1e18218283a3",
+    "answer": "Gracias por comunicarte con GOYENA. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "ae06b30ebf66f4d5869b3d2e1e95353e",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "a3aa6c62-7d3f-48f3-a13d-ebfb25db700c",
+    "keyword": "ae06b30ebf66f4d5869b3d2e1e95353e",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_63301049-1cf1-4276-8b70-a46e010b58e7",
+    "keyword": "key_9168099b-5ac0-44ee-98e0-e1a4c536a8f6",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada por comas: Nombre completo, DNI, Dirección (calle, número, piso), Detalle del producto (producto y cantidad), Monto de pago. Ejemplo: Juan Pérez, 12345678, Av. Siempre Viva 742, Pizza Grande 2, $1500. Por favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "26d7fe2752a8b62ace10cc756041462d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "3faa4915-5c54-45ab-8cea-1487c1968e88",
+    "keyword": "26d7fe2752a8b62ace10cc756041462d",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada por comas: Nombre completo, DNI, Dirección (calle, número, piso), Detalle del producto (producto y cantidad), Monto de pago. Ejemplo: Juan Pérez, 12345678, Av. Siempre Viva 742, Pizza Grande 2, $1500. Por favor, completa con tus datos:",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "d91f8c7aebdcd2e7614fe05f737431e3"
+  },
+  {
+    "ref": "ans_14d6d405-7630-42d4-be7e-2cb928fca1d5",
+    "keyword": "key_afb99de2-fd48-4d48-a20a-095a614dac86",
+    "answer": "Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "554f738d6fdc0a9c3cfb6b7702fd762d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "0795d5bc-68c9-4a32-b87f-258eeb1a431e",
+    "keyword": "554f738d6fdc0a9c3cfb6b7702fd762d",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_c1daf7ef-ed86-46b7-bc87-eb91293e5f86",
+    "keyword": "key_77c8aa2a-6d0c-4b66-843f-c0529dff9d58",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d6a3fb96b757e8fb421cae17389e79ed",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "ans_ee723925-91cb-4df1-8a43-d7a6c8c11d62",
+    "keyword": "key_54b40819-98b0-4fbf-b801-64e5f3e3d467",
+    "answer": "Hola, gracias por comunicarte con Puesto de Campo. Solo podemos responder mensajes ESCRITOS. ¿En qué podemos ayudarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8746582374f81c15ab9bb7affb6dddb6",
+    "from": "5493584876535"
+  }
+]
