@@ -1,15 +1,15 @@
 [
   {
-    "ref": "6beb0ca0-24d5-4f31-81aa-f4a731065490",
-    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
+    "ref": "f04bd61f-54f1-4f40-8147-edc865d175a2",
+    "keyword": "1a80fb4c6ba240894063a7d3b0b03164",
     "answer": "hola",
     "options": {},
     "from": "5493584876535",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_c17de41a-a95f-4fef-b815-70c04f4d2dc2",
-    "keyword": "key_b92f07ed-fb6b-4fb9-942c-13cb5bf3027a",
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
     "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
     "options": {
       "buttons": [
@@ -29,7 +29,1490 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "1a80fb4c6ba240894063a7d3b0b03164",
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
     "from": "5493584876535"
+  },
+  {
+    "ref": "ce49e2fc-9273-457e-a23b-aa1497812997",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "hola",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "eed07301-f39a-4c80-84c8-cadebeb82fa6",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Envíos",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "3047f9f01e6cb297a6d1993599b505c3"
+  },
+  {
+    "ref": "ans_5a58da2c-002a-42f0-ac70-4125adf95541",
+    "keyword": "key_1802a3c9-141c-4dc2-96a9-159e81a3b189",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "22ebeb288248c68126fa51ca74dec56d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "2d539ea4-cae9-4dfd-bbeb-25045a61690c",
+    "keyword": "22ebeb288248c68126fa51ca74dec56d",
+    "answer": "Pedro Goyena 298",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "c3592c692e47e46a613992bfb8f4cf08"
+  },
+  {
+    "ref": "ans_28caad87-8034-40ba-9665-54130d00af48",
+    "keyword": "key_45302386-2843-44bf-9398-69de740121be",
+    "answer": "Gracias por comunicarte con la Sucursal GOYENA. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "48dae99f4ec88437dba40b2102129def",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "3ff397bd-6a5e-4629-8f94-d0f721621c9c",
+    "keyword": "48dae99f4ec88437dba40b2102129def",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "cb18d25b-375f-4d3a-ab98-1a5beed3c02f",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "- Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "37a3a6e8a17fd24693b538ed1063cdb8"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "e524ce01-5b2f-4e20-9f9b-53bc1c42e05e",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "keyword": "key_7f8c944d-cac7-446d-add7-37c7763c375d",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ea0bdfe325b527acbfe6d8b0c369967",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "04f5ea80-c265-45f9-98e7-3f4513dda898",
+    "keyword": null,
+    "answer": "Gracias por elegirnos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "95a25733d585c8c9386bf7f9b440bff4"
+  },
+  {
+    "ref": "0a88ad1c-b30b-4d5a-9bf2-fd4144187470",
+    "keyword": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493586108047"
+  },
+  {
+    "ref": "c8e8d0b7-3d81-4c64-8b9b-8961316877b3",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
+    "answer": "hola",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "f4a2edc9-05e7-44b8-a15d-d1bef0252117",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Envíos",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "3047f9f01e6cb297a6d1993599b505c3"
+  },
+  {
+    "ref": "ans_5a58da2c-002a-42f0-ac70-4125adf95541",
+    "keyword": "key_1802a3c9-141c-4dc2-96a9-159e81a3b189",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "22ebeb288248c68126fa51ca74dec56d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "221d94ea-3406-4eb1-899d-d65b8160463e",
+    "keyword": "22ebeb288248c68126fa51ca74dec56d",
+    "answer": "Pedro Goyena 298",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "c3592c692e47e46a613992bfb8f4cf08"
+  },
+  {
+    "ref": "ans_28caad87-8034-40ba-9665-54130d00af48",
+    "keyword": "key_45302386-2843-44bf-9398-69de740121be",
+    "answer": "Gracias por comunicarte con la Sucursal GOYENA. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "48dae99f4ec88437dba40b2102129def",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "cd812e94-95f9-425a-b79a-cef211daf2ca",
+    "keyword": "48dae99f4ec88437dba40b2102129def",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "9ddf2731-c51b-4c38-b3ac-1406af9dc865",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "- Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "37a3a6e8a17fd24693b538ed1063cdb8"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "709d9fe4-467b-4e21-a789-3c0c31606568",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "keyword": "key_7f8c944d-cac7-446d-add7-37c7763c375d",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ea0bdfe325b527acbfe6d8b0c369967",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "f75b056e-f03c-4f5c-8e1f-f98eca0456af",
+    "keyword": null,
+    "answer": "Gracias por elegirnos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "95a25733d585c8c9386bf7f9b440bff4"
+  },
+  {
+    "ref": "78c408d2-c646-4927-bfc9-ce008db8b3ba",
+    "keyword": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493586108046"
+  },
+  {
+    "ref": "9c688495-8be0-4991-a276-d3c073a0aa1c",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
+    "answer": "hola",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "62b29681-01ed-47db-866f-fe1aa52a5444",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Retiros",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "98b68f10274ef55f6911838cd137aa5c"
+  },
+  {
+    "ref": "ans_ce462794-147e-45c9-b339-cdf36ba813d5",
+    "keyword": "key_e6168677-3fce-4fcd-94d9-f9f48801ac0f",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f568ee5ba8937bcd5ed0643cf45def48",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "c1c935f7-16b3-43e7-9fda-5067fd256dce",
+    "keyword": "f568ee5ba8937bcd5ed0643cf45def48",
+    "answer": "Suipacha 306",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "c6d11e0a2087ad5b590deea5474605c3"
+  },
+  {
+    "ref": "ans_07f0b9de-8b33-4cf5-9095-94bff5c12ced",
+    "keyword": "key_ec4560a3-dfea-421b-930d-046a379a8b3f",
+    "answer": "Gracias por comunicarte con SUIPACHA. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "47eaff5600136b4e718d9a5971684fbc",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "8ea00473-f7dd-4d7f-b208-fc490a9567aa",
+    "keyword": "47eaff5600136b4e718d9a5971684fbc",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "2816667f-5f01-4b6a-a35e-ca62c593f78b",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "≈- Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "495cfd3331eb955c01ef6c62b82c2738"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "ab70a3fd-47e8-47b8-933a-5771e57e3620",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "keyword": "key_7f8c944d-cac7-446d-add7-37c7763c375d",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ea0bdfe325b527acbfe6d8b0c369967",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "cfde7f45-5a0c-43c8-b0dc-d919bcf9e794",
+    "keyword": null,
+    "answer": "Gracias por elegirnos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "95a25733d585c8c9386bf7f9b440bff4"
+  },
+  {
+    "ref": "3438911f-3be3-4d5f-b875-4ca0313fb4be",
+    "keyword": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "2f1a179c-5e4c-42be-9958-d9cccaf30da2",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
+    "answer": "hola",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "85de9323-2def-4cc2-a159-bbc1965c72f3",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Retiros",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "98b68f10274ef55f6911838cd137aa5c"
+  },
+  {
+    "ref": "ans_ce462794-147e-45c9-b339-cdf36ba813d5",
+    "keyword": "key_e6168677-3fce-4fcd-94d9-f9f48801ac0f",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f568ee5ba8937bcd5ed0643cf45def48",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "2ad85fe9-28d3-42b6-8f54-e29721a1037d",
+    "keyword": "f568ee5ba8937bcd5ed0643cf45def48",
+    "answer": "Gob. Guzmán 1560",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "2ea0e22ab02333c29b254f13fb9a2ff0"
+  },
+  {
+    "ref": "ans_3f7d0756-bfc7-403f-a8d4-a22d772b37db",
+    "keyword": "key_2c9a5e6e-467a-4d1f-a628-41fe08be067a",
+    "answer": "Gracias por comunicarte con GUZMÁN. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1f2cfb27bab8c0f6a490e36ec15c6e7b",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "dcc34423-a1ef-4dc9-aeeb-2c19b7bfeb87",
+    "keyword": "1f2cfb27bab8c0f6a490e36ec15c6e7b",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "6126b103-38c0-428b-95fa-e3d7dac1f9f9",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "- Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "37a3a6e8a17fd24693b538ed1063cdb8"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "943ed426-0a60-42fb-8f99-80666b3de759",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "keyword": "key_7f8c944d-cac7-446d-add7-37c7763c375d",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ea0bdfe325b527acbfe6d8b0c369967",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "0f579c7f-d69a-4a61-babd-407f056b41a4",
+    "keyword": null,
+    "answer": "Gracias por elegirnos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "95a25733d585c8c9386bf7f9b440bff4"
+  },
+  {
+    "ref": "3c4c09ac-fb7a-4f65-a5f5-5678b1c9aa80",
+    "keyword": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "01cd2c8d-cf70-4209-828c-458b62b9604d",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
+    "answer": "hola",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "0188301e-c1fd-4ae8-90f1-b47fc5134e09",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Retiros",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "98b68f10274ef55f6911838cd137aa5c"
+  },
+  {
+    "ref": "ans_ce462794-147e-45c9-b339-cdf36ba813d5",
+    "keyword": "key_e6168677-3fce-4fcd-94d9-f9f48801ac0f",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f568ee5ba8937bcd5ed0643cf45def48",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "2f91e829-19ee-4d2a-a4b7-505547b9f3cd",
+    "keyword": "f568ee5ba8937bcd5ed0643cf45def48",
+    "answer": "Gob. Guzmán 1560",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "2ea0e22ab02333c29b254f13fb9a2ff0"
+  },
+  {
+    "ref": "ans_3f7d0756-bfc7-403f-a8d4-a22d772b37db",
+    "keyword": "key_2c9a5e6e-467a-4d1f-a628-41fe08be067a",
+    "answer": "Gracias por comunicarte con GUZMÁN. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1f2cfb27bab8c0f6a490e36ec15c6e7b",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "3a652408-3bd2-44d5-b41a-c3ef9708f9f5",
+    "keyword": "1f2cfb27bab8c0f6a490e36ec15c6e7b",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "846b9c19-d751-4a15-9afb-7f4081fd1a10",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "- Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "37a3a6e8a17fd24693b538ed1063cdb8"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "92861dd7-d59c-48aa-bc87-062b23579c89",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Cancelar",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "72322ede6254b906b42487bbebabc9f5"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "d6e46aea-e4ba-471a-89cf-ada9259da060",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Envíos",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "3047f9f01e6cb297a6d1993599b505c3"
+  },
+  {
+    "ref": "ans_5a58da2c-002a-42f0-ac70-4125adf95541",
+    "keyword": "key_1802a3c9-141c-4dc2-96a9-159e81a3b189",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "22ebeb288248c68126fa51ca74dec56d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "55f4b077-2738-4cdb-a210-3b29f38950b5",
+    "keyword": "22ebeb288248c68126fa51ca74dec56d",
+    "answer": "Suipacha 306",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "c6d11e0a2087ad5b590deea5474605c3"
+  },
+  {
+    "ref": "ans_07f0b9de-8b33-4cf5-9095-94bff5c12ced",
+    "keyword": "key_ec4560a3-dfea-421b-930d-046a379a8b3f",
+    "answer": "Gracias por comunicarte con SUIPACHA. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "47eaff5600136b4e718d9a5971684fbc",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "f43edf42-350a-4546-bcde-7e5f938522fc",
+    "keyword": "47eaff5600136b4e718d9a5971684fbc",
+    "answer": "Cancelar",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "72322ede6254b906b42487bbebabc9f5"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "33d08eeb-7698-467a-8b20-5d45ced0883f",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Envíos",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "3047f9f01e6cb297a6d1993599b505c3"
+  },
+  {
+    "ref": "ans_5a58da2c-002a-42f0-ac70-4125adf95541",
+    "keyword": "key_1802a3c9-141c-4dc2-96a9-159e81a3b189",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "22ebeb288248c68126fa51ca74dec56d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "f7b981ed-1afc-40d3-89ad-9249e07b1998",
+    "keyword": "22ebeb288248c68126fa51ca74dec56d",
+    "answer": "Gob. Guzmán 1560",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "2ea0e22ab02333c29b254f13fb9a2ff0"
+  },
+  {
+    "ref": "ans_3f7d0756-bfc7-403f-a8d4-a22d772b37db",
+    "keyword": "key_2c9a5e6e-467a-4d1f-a628-41fe08be067a",
+    "answer": "Gracias por comunicarte con GUZMÁN. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1f2cfb27bab8c0f6a490e36ec15c6e7b",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "0822b2ab-d350-459e-85d7-decb1bb4a656",
+    "keyword": "1f2cfb27bab8c0f6a490e36ec15c6e7b",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "835ca224-1588-427e-a842-5797e86c8059",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "- Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "37a3a6e8a17fd24693b538ed1063cdb8"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "6e81893e-005e-4498-8ea5-ec91a05eeafb",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "keyword": "key_7f8c944d-cac7-446d-add7-37c7763c375d",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ea0bdfe325b527acbfe6d8b0c369967",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "0c862e0b-3ad6-407c-9867-11f692a34796",
+    "keyword": null,
+    "answer": "Gracias por elegirnos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "95a25733d585c8c9386bf7f9b440bff4"
+  },
+  {
+    "ref": "1eafe83a-22f9-40b2-8a8d-8fb19585f556",
+    "keyword": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "36875645-e924-4a8d-99c9-af7b72abbfb2",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
+    "answer": "Holass",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "24f41a5d0398f6fed20b11f8687dc9e9"
+  },
+  {
+    "ref": "ans_6346056d-f946-4182-accc-268a3f8b306a",
+    "keyword": "key_5d4be6b3-537e-4f6f-a7c8-413692ec5545",
+    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:",
+    "options": {
+      "buttons": [
+        {
+          "body": "Envíos"
+        },
+        {
+          "body": "Retiros"
+        },
+        {
+          "body": "Consultas"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "993768f6-d0a5-46af-9c2f-f10b280e8f8d",
+    "keyword": "9932dc7e293e28f6f6f6fb516566ff3d",
+    "answer": "Envíos",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "3047f9f01e6cb297a6d1993599b505c3"
+  },
+  {
+    "ref": "ans_5a58da2c-002a-42f0-ac70-4125adf95541",
+    "keyword": "key_1802a3c9-141c-4dc2-96a9-159e81a3b189",
+    "answer": "¿Con qué sucursal quisieras comunicarte?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Pedro Goyena 298"
+        },
+        {
+          "body": "Suipacha 306"
+        },
+        {
+          "body": "Gob. Guzmán 1560"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "22ebeb288248c68126fa51ca74dec56d",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "53b7176f-4350-41a2-8ff6-ba782513201f",
+    "keyword": "22ebeb288248c68126fa51ca74dec56d",
+    "answer": "Pedro Goyena 298",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "c3592c692e47e46a613992bfb8f4cf08"
+  },
+  {
+    "ref": "ans_28caad87-8034-40ba-9665-54130d00af48",
+    "keyword": "key_45302386-2843-44bf-9398-69de740121be",
+    "answer": "Gracias por comunicarte con la Sucursal GOYENA. ¿Qué deseas hacer?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Iniciar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "48dae99f4ec88437dba40b2102129def",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "4e500c3d-02b1-4d2f-ad14-8be7eab945d2",
+    "keyword": "48dae99f4ec88437dba40b2102129def",
+    "answer": "Iniciar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "b0a32f658d6bc503e47c9f65656337c8"
+  },
+  {
+    "ref": "ans_89c5bbcd-51de-48c8-be20-f0e9d564d2fc",
+    "keyword": "key_d576702d-1cec-477c-bce9-93f65ccb9278",
+    "answer": "Para realizar tu pedido, ingresa la siguiente información separada:\n\n - Nombre completo\n - DNI\n - Dirección (calle, número, piso),\n - Detalle del pedido (producto y cantidad).\n\nEjemplo:\n\n - Juan Pérez\n - 42345678\n - Av. Sabattini 352\n - 3kg de Asado.\n\nPor favor, completa con tus datos:",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cd837e9c92acba356d049a78b653459a",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "624768fc-0a54-4687-87b6-2aab12f7554a",
+    "keyword": "cd837e9c92acba356d049a78b653459a",
+    "answer": "Ajdhxi ejx",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "6b34b1960ee684b06d00477e2baf0d8f"
+  },
+  {
+    "ref": "ans_a2675e58-b8a9-4e21-9299-31481d6a7360",
+    "keyword": "key_6759e8c4-0252-4cc5-ab53-e0800df774d7",
+    "answer": "¿Quieres confirmar el pedido?",
+    "options": {
+      "buttons": [
+        {
+          "body": "Confirmar pedido"
+        },
+        {
+          "body": "Cancelar"
+        }
+      ],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "ab4f2071-52ce-451c-9687-3553d73b800e",
+    "keyword": "85a25fd15e64be7d9b7fa87ebc5f2098",
+    "answer": "Confirmar pedido",
+    "options": {},
+    "from": "5493584876535",
+    "refSerialize": "4b49e270950fca3ab0d067f1ef0c31aa"
+  },
+  {
+    "ref": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "keyword": "key_7f8c944d-cac7-446d-add7-37c7763c375d",
+    "answer": "Enviando tu pedido...",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ea0bdfe325b527acbfe6d8b0c369967",
+    "from": "5493584876535"
+  },
+  {
+    "ref": "1dc40c32-0d17-4baf-9293-be2dbbb31905",
+    "keyword": null,
+    "answer": "Gracias por elegirnos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "95a25733d585c8c9386bf7f9b440bff4"
+  },
+  {
+    "ref": "ebfdced1-b7dc-4e79-8662-c369552372af",
+    "keyword": "ans_a7dae3bd-0060-4c1e-9421-3fd482a0c7a3",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493584876535",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
   }
 ]
