@@ -3,7 +3,7 @@ import { addKeyword } from '@builderbot/bot';
 
 export const createWelcomeFlow = (flows) =>
     addKeyword(['Hola', 'Inicio', 'Buenas', 'haces', 'dia', 'cancelar'])
-        .addAnswer('Hola, gracias por comunicarte con carnicerías Puesto de Campo. ¿En qué podemos ayudarte? Haz click en alguna de las opciones:',
+        .addAnswer(['Hola, gracias por comunicarte con carnicerías Puesto de Campo.', '¿En qué podemos ayudarte?', 'Haz click en alguna de las opciones:'],
             {
                 buttons: [
                     { body: 'Envíos' },
