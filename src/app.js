@@ -13,6 +13,8 @@ import { createGuzmanFlow } from './flows/guzmanFlow.js';
 import { createDeliveryFlow } from './flows/deliveryFlow.js';
 import { createPickupFlow } from './flows/pickupFlow.js';
 import { createFaqFlow } from './flows/faqFlow.js';
+import { generalInquiryFlow } from './flows/generalInquiryFlow.js';
+import { priceInquiryFlow } from './flows/priceInquiryFlow.js';
 
 const PORT = process.env.PORT ?? 3002;
 
@@ -28,6 +30,8 @@ flows.pedidoFlow = createPedidoFlow(flows);
 flows.resumenFlow = createResumenFlow(flows);
 flows.confirmacionFlow = createConfirmacionFlow(flows);
 flows.faqFlow = createFaqFlow(flows);
+flows.generalInquiryFlow = generalInquiryFlow(flows);
+flows.priceInquiryFlow = priceInquiryFlow(flows);
 
 const adapterFlow = createFlow(Object.values(flows));
 

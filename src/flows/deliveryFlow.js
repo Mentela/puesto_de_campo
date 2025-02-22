@@ -19,6 +19,6 @@ export const createDeliveryFlow = (flows) =>
                 console.log('deliveryFlow - Respuesta:', normalizedBody);
                 if (normalizedBody.includes('goyena')) return gotoFlow(flows.goyenaFlow);
                 if (normalizedBody.includes('suipacha')) return gotoFlow(flows.suipachaFlow);
-                if (normalizedBody.includes('guzmán')) return gotoFlow(flows.guzmanFlow);
+                if (normalizedBody.includes('guzmán')) return gotoFlow(flows.welcomeFlow);
             }
         );
