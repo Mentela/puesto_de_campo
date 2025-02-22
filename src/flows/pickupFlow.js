@@ -4,7 +4,7 @@ import { pedidos } from '../pedidos.js';
 
 export const createPickupFlow = (flows) =>
     addKeyword('Retiros')
-        .addAnswer('¿Con qué sucursal quisieras comunicarte?',
+        .addAnswer('Haz elegido "Retiro por sucursal"\n¿En qué sucursal quieres hacer el pedido?',
             {
                 buttons: [
                     { body: 'Pedro Goyena 298' },

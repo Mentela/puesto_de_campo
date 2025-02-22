@@ -5,7 +5,7 @@ import { SUCURSALES } from '../config/sucursales.js';
 
 export const createSuipachaFlow = (flows) =>
     addKeyword('Suipacha')
-        .addAnswer('Gracias por comunicarte con la Sucursal SUIPACHA. ¿Qué deseas hacer?',
+        .addAnswer('Gracias por comunicarte con la Sucursal SUIPACHA.\n¿Qué deseas hacer?',
             {
                 buttons: [
                     { body: 'Iniciar pedido' },

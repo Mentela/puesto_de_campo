@@ -3,7 +3,7 @@ import { addKeyword } from '@builderbot/bot';
 
 export const createResumenFlow = (flows) =>
     addKeyword('nosense123123', { sensitive: true })
-        .addAnswer('¿Quieres confirmar el pedido?',
+        .addAnswer('Tus datos han sido capturados.\n¿Quieres confirmar el pedido?',
             {
                 buttons: [
                     { body: 'Confirmar pedido' },

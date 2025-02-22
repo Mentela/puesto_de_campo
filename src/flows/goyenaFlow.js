@@ -5,7 +5,7 @@ import { SUCURSALES } from '../config/sucursales.js';
 
 export const createGoyenaFlow = (flows) =>
     addKeyword('Goyena')
-        .addAnswer('Gracias por comunicarte con la Sucursal GOYENA. ¿Qué deseas hacer?',
+        .addAnswer('Gracias por comunicarte con la Sucursal GOYENA.\n¿Qué deseas hacer?',
             {
                 buttons: [
                     { body: 'Iniciar pedido' },

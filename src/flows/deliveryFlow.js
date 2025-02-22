@@ -4,7 +4,7 @@ import { pedidos } from '../pedidos.js';
 
 export const createDeliveryFlow = (flows) =>
     addKeyword('Envíos')
-        .addAnswer('¿Con qué sucursal quisieras comunicarte?',
+        .addAnswer('Haz elegido "Envío a domicilio"\n¿Con qué sucursal quisieras comunicarte?',
             {
                 buttons: [
                     { body: 'Pedro Goyena 298' },

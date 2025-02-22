@@ -5,7 +5,7 @@ import { SUCURSALES } from '../config/sucursales.js';
 
 export const createGuzmanFlow = (flows) =>
     addKeyword('Guzmán')
-        .addAnswer('Gracias por comunicarte con la Sucursal GUZMÁN. ¿Qué deseas hacer?',
+        .addAnswer('Gracias por comunicarte con la Sucursal GUZMÁN.\n¿Qué deseas hacer?',
             {
                 buttons: [
                     { body: 'Iniciar pedido' },
