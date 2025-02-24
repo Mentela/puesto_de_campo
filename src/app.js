@@ -15,6 +15,7 @@ import { createPickupFlow } from './flows/pickupFlow.js';
 import { createFaqFlow } from './flows/faqFlow.js';
 import { generalInquiryFlow } from './flows/generalInquiryFlow.js';
 import { priceInquiryFlow } from './flows/priceInquiryFlow.js';
+import { createConversationFlow } from './flows/createConversationFlow.js';
 
 const PORT = process.env.PORT ?? 3002;
 
@@ -32,6 +33,7 @@ flows.confirmacionFlow = createConfirmacionFlow(flows);
 flows.faqFlow = createFaqFlow(flows);
 flows.generalInquiryFlow = generalInquiryFlow(flows);
 flows.priceInquiryFlow = priceInquiryFlow(flows);
+flows.createConversationFlow = createConversationFlow(flows);
 
 const adapterFlow = createFlow(Object.values(flows));
 

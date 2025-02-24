@@ -1,99 +1,31 @@
 [
   {
-    "ref": "87b41183-8250-4b47-bd6a-0dcbbca34590",
+    "ref": "86924914-a0ac-461d-bc4f-ad1d05e54f8e",
     "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
-    "answer": "hola",
+    "answer": "sucursal_puesto",
     "options": {},
     "from": "5493584876535",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+    "refSerialize": "6d3c6212be9ced30203613b097ad81d4"
   },
   {
-    "ref": "ans_5b7bd90a-f4b3-41ac-8cca-fbeb58125e2d",
-    "keyword": "key_66a741f2-b657-4be1-8112-a04c7040dc37",
-    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo.\n¿En qué podemos ayudarte?\nHaz click en alguna de las opciones:",
+    "ref": "ans_c59267f0-d189-4033-8042-80259c848014",
+    "keyword": "key_2ae9b8c2-2f78-481b-a0d1-638bbff7378c",
+    "answer": "Procesando...",
     "options": {
-      "buttons": [
-        {
-          "body": "Envíos"
-        },
-        {
-          "body": "Retiros"
-        },
-        {
-          "body": "Consultas"
-        }
-      ],
+      "buttons": [],
       "capture": false,
       "delay": 0,
       "nested": [],
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4eccfc30c2930862ded9fa678bb909e0",
+    "refSerialize": "8ef766ea1cdada6bd8bd108a0050e8cd",
     "from": "5493584876535"
   },
   {
-    "ref": "88cd87d4-a045-4777-a385-611e1a286849",
-    "keyword": "4eccfc30c2930862ded9fa678bb909e0",
-    "answer": "Consultas",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "0772d29456edebbe0195fe5c332945de"
-  },
-  {
-    "ref": "ans_a9c8d0b3-0058-429e-9dd0-6cf0190d0af1",
-    "keyword": "key_d1d8475c-00a1-4eb8-853a-32bb0b60b151",
-    "answer": "Nuestras preguntas más frecuentes:\n1. Horarios de atención\n2. Dirección de sucursales\n3. Precios\n4. Medios de pago\n5. Teléfonos de sucursales\n6. Otra consulta\n\nPor favor, respondé con el número correspondiente o seleccioná una opción:",
-    "options": {
-      "buttons": [
-        {
-          "body": "Volver al inicio"
-        }
-      ],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "4d066b4693b7b5fb3ffdbd6fbad433bb",
-    "from": "5493584876535"
-  },
-  {
-    "ref": "fb8f177e-93c7-48a1-bafc-fad0f5de7331",
-    "keyword": "4d066b4693b7b5fb3ffdbd6fbad433bb",
-    "answer": "3",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
-  },
-  {
-    "ref": "ans_1e78b135-06c6-4f91-ba2b-5958f761178c",
-    "keyword": "key_23158785-c865-42f2-8d69-75ddf4f5bd65",
-    "answer": "¿Qué precios deseas consultar?",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "a25ca0817785011de75b64dc9198aed1",
-    "from": "5493584876535"
-  },
-  {
-    "ref": "143e9c8f-ccaa-4971-b414-0779165b6b0c",
-    "keyword": "a25ca0817785011de75b64dc9198aed1",
-    "answer": "Cuanto sale la bolsa de leña?",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "7b7d76724823bfbc6c039582ae64457d"
-  },
-  {
-    "ref": "bf62b2cb-f841-4549-b641-eefc37af5ad6",
+    "ref": "638cad99-75f7-491e-b885-4e135777bada",
     "keyword": null,
-    "answer": "Gracias por elegir Puesto de Campo.",
+    "answer": "La conversación se ha activado exitosamente por 24hs.",
     "options": {
       "media": null,
       "buttons": [],
@@ -101,154 +33,11 @@
       "delay": 0
     },
     "from": "5493584876535",
-    "refSerialize": "a9bb77864755d1c847df1d3503e566cb"
+    "refSerialize": "9a9811ddb5a2bb6231f5cc82a8435c8b"
   },
   {
-    "ref": "646b1061-70e4-4121-8ee9-2407e9df0a71",
-    "keyword": null,
-    "answer": "Si necesitas algo más, vuelve a iniciar la conversación con un \"Hola\".",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493584876535",
-    "refSerialize": "3f41f93f03d27bb5be5788b90cd1d7bb"
-  },
-  {
-    "ref": "b2411624-b06f-442a-bc4b-e0ffc0519730",
-    "keyword": "ans_1e78b135-06c6-4f91-ba2b-5958f761178c",
-    "answer": "__end_flow__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493584876535",
-    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
-  },
-  {
-    "ref": "56741097-942a-4a73-b475-3ca43ca1de49",
-    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
-    "answer": "hola",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
-  },
-  {
-    "ref": "ans_5b7bd90a-f4b3-41ac-8cca-fbeb58125e2d",
-    "keyword": "key_66a741f2-b657-4be1-8112-a04c7040dc37",
-    "answer": "Hola, gracias por comunicarte con carnicerías Puesto de Campo.\n¿En qué podemos ayudarte?\nHaz click en alguna de las opciones:",
-    "options": {
-      "buttons": [
-        {
-          "body": "Envíos"
-        },
-        {
-          "body": "Retiros"
-        },
-        {
-          "body": "Consultas"
-        }
-      ],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "4eccfc30c2930862ded9fa678bb909e0",
-    "from": "5493584876535"
-  },
-  {
-    "ref": "c20d141c-81b8-4cb5-8ddf-2b0f2ad11e6b",
-    "keyword": "4eccfc30c2930862ded9fa678bb909e0",
-    "answer": "Consultas",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "0772d29456edebbe0195fe5c332945de"
-  },
-  {
-    "ref": "ans_a9c8d0b3-0058-429e-9dd0-6cf0190d0af1",
-    "keyword": "key_d1d8475c-00a1-4eb8-853a-32bb0b60b151",
-    "answer": "Nuestras preguntas más frecuentes:\n1. Horarios de atención\n2. Dirección de sucursales\n3. Precios\n4. Medios de pago\n5. Teléfonos de sucursales\n6. Otra consulta\n\nPor favor, respondé con el número correspondiente o seleccioná una opción:",
-    "options": {
-      "buttons": [
-        {
-          "body": "Volver al inicio"
-        }
-      ],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "4d066b4693b7b5fb3ffdbd6fbad433bb",
-    "from": "5493584876535"
-  },
-  {
-    "ref": "f2d107a7-1a55-47aa-b523-208e413d331d",
-    "keyword": "4d066b4693b7b5fb3ffdbd6fbad433bb",
-    "answer": "6",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "a7c49181ef3046656ea8ab317c4adca7"
-  },
-  {
-    "ref": "ans_97a9bf21-94b2-4bdd-8cc5-202328a6468c",
-    "keyword": "key_a7d00819-a552-4281-b794-15746631760c",
-    "answer": "¿Qué consulta deseas hacer?",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "92063ea5f52462dea1622f2101a2e52b",
-    "from": "5493584876535"
-  },
-  {
-    "ref": "900cf63d-9956-4c26-b1a7-ce78aa25f59a",
-    "keyword": "92063ea5f52462dea1622f2101a2e52b",
-    "answer": "Se puede hacer canjes de carne por codigo?",
-    "options": {},
-    "from": "5493584876535",
-    "refSerialize": "9dfdef1733b74a565f186bdd861f9131"
-  },
-  {
-    "ref": "d7d636df-9787-4178-bee3-ad70e57e1a4d",
-    "keyword": null,
-    "answer": "Gracias por elegir Puesto de Campo.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493584876535",
-    "refSerialize": "a9bb77864755d1c847df1d3503e566cb"
-  },
-  {
-    "ref": "37efd2d2-ca10-4357-973c-beae54e50b2d",
-    "keyword": null,
-    "answer": "Si necesitas algo más, vuelve a iniciar la conversación con un \"Hola\".",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493584876535",
-    "refSerialize": "3f41f93f03d27bb5be5788b90cd1d7bb"
-  },
-  {
-    "ref": "b1baee37-2fd2-4245-9663-ad65dc156b24",
-    "keyword": "ans_97a9bf21-94b2-4bdd-8cc5-202328a6468c",
+    "ref": "76915edc-7a6a-467c-96fa-767f1d36ef94",
+    "keyword": "ans_c59267f0-d189-4033-8042-80259c848014",
     "answer": "__end_flow__",
     "options": {
       "media": null,
