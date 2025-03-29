@@ -14,7 +14,7 @@ export const createPickupFlow = (flows) =>
             },
             async (ctx, { gotoFlow }) => {
                 console.log('pickupFlow - Usuario eligió Retiros');
-                pedidos[ctx.from] = { ...pedidos[ctx.from], tipoPedido: 'Envío' };
+                pedidos[ctx.from] = { ...pedidos[ctx.from], tipoPedido: 'Retiro' };
                 const normalizedBody = ctx.body.trim().toLowerCase();
                 console.log('pickupFlow - Respuesta:', normalizedBody);
                 if (normalizedBody.includes('goyena')) return gotoFlow(flows.goyenaFlow);
